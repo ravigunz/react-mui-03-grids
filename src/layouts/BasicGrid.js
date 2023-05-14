@@ -15,18 +15,18 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function BasicGrid() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={1}>
-  <Grid item xs={6} md={8}>
-    <Item>xs=6 md=8</Item>
+      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 4, md: 7 }}>
+  <Grid item xs={6}>
+    <Item>1</Item>
   </Grid>
-  <Grid item xs={6} md={4}>
-    <Item>xs=6 md=4</Item>
+  <Grid item xs={6}>
+    <Item>2</Item>
   </Grid>
-  <Grid item xs={6} md={4}>
-    <Item>xs=6 md=4</Item>
+  <Grid item xs={6}>
+    <Item>3</Item>
   </Grid>
-  <Grid item xs={6} md={8}>
-    <Item>xs=6 md=8</Item>
+  <Grid item xs={6}>
+    <Item>4</Item>
   </Grid>
 </Grid>
     </Box>
