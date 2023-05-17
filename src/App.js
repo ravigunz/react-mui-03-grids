@@ -1,4 +1,5 @@
 import "./App.css";
+import NestedGrid from "./NestedGrid";
 // import BoxSx from "./layouts/BoxSx";
 import BasicGrid from "./layouts/BasicGrid";
 import LearnGrid from "./layouts/LearnGrid";
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <BoxSx /> */}
       {/* <BasicGrid /> */}
-      <LearnGrid />
+      {/* <LearnGrid /> */}
+      <NestedGrid />
     </div>
   );
 }
